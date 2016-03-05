@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3EE5A51E-0A83-429C-B627-1594813EE7A8}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>E_Ticaret</RootNamespace>
+    <AssemblyName>E-Ticaret</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Banka.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\web\fonts\Amble-Light-webfont.ttf" />
+    <Content Include="Content\web\images\AppleIpad.jpg" />
+    <Content Include="Content\web\images\ApplePc.jpg" />
+    <Content Include="Content\web\images\AsusPc1.jpg" />
+    <Content Include="Content\web\images\AsusPc2.jpg" />
+    <Content Include="Content\web\images\AsusPc3.jpg" />
+    <Content Include="Content\web\images\CasperPc1.jpg" />
+    <Content Include="Content\web\images\CasperPc2.jpg" />
+    <Content Include="Content\web\images\logo1.psd" />
+    <Content Include="Content\web\images\PhilipsPlazma1.jpg" />
+    <Content Include="Content\web\images\PhilipsPlazma2.jpg" />
+    <Content Include="Content\web\images\SamsungPc.jpg" />
+    <Content Include="Content\web\images\Thumbs.db" />
+    <Content Include="Content\web\images\LenovoPc1.jpg" />
+    <Content Include="Content\web\images\LenovoPc2.jpg" />
+    <Content Include="KategoriKamera.aspx" />
+    <Content Include="KategoriLaptop.aspx" />
+    <Content Include="KategoriPlazma.aspx" />
+    <Content Include="KategoriTablet.aspx" />
+    <Content Include="KategoriTelefon.aspx" />
+    <Content Include="MarkaApple.aspx" />
+    <Content Include="MarkaAsus.aspx" />
+    <Content Include="MarkaCanon.aspx" />
+    <Content Include="MarkaCasper.aspx" />
+    <Content Include="MarkaLenovo.aspx" />
+    <Content Include="MarkaPhilips.aspx" />
+    <Content Include="MarkaSamsung.aspx" />
+    <Content Include="MarkaSony.aspx" />
+    <Content Include="packages.config" />
+    <Content Include="ÖdemeBilgi.aspx" />
+    <EntityDeploy Include="eTicaret.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>eTicaret.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="eTicaret.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>eTicaret.edmx</DependentUpon>
+      <LastGenOutput>eTicaret.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="eTicaret.edmx.diagram">
+      <DependentUpon>eTicaret.edmx</DependentUpon>
+    </Content>
+    <Content Include="eTicaret.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>eTicaret.edmx</DependentUpon>
+      <LastGenOutput>eTicaret.cs</LastGenOutput>
+    </Content>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\web\404.html" />
+    <Content Include="Content\web\about.html" />
+    <Content Include="Content\web\contact.html" />
+    <Content Include="Content\web\css\easy-responsive-tabs.css" />
+    <Content Include="Content\web\css\global.css" />
+    <Content Include="Content\web\css\style.css" />
+    <Content Include="Content\web\images\arrow-next.png" />
+    <Content Include="Content\web\images\arrow-prev.png" />
+    <Content Include="Content\web\images\arrow.png" />
+    <Content Include="Content\web\images\arrow1.png" />
+    <Content Include="Content\web\images\btn.png" />
+    <Content Include="Content\web\images\canon1.png" />
+    <Content Include="Content\web\images\canon2.png" />
+    <Content Include="Content\web\images\canon3.jpg" />
+    <Content Include="Content\web\images\fb.png" />
+    <Content Include="Content\web\images\logo.png" />
+    <Content Include="Content\web\images\marker2.png" />
+    <Content Include="Content\web\images\plazma3.png" />
+    <Content Include="Content\web\images\plazma4.png" />
+    <Content Include="Content\web\images\price-rating.png" />
+    <Content Include="Content\web\images\productslide-2.jpg" />
+    <Content Include="Content\web\images\productslide-3.jpg" />
+    <Content Include="Content\web\images\quality-rating.png" />
+    <Content Include="Content\web\images\rss.png" />
+    <Content Include="Content\web\images\appletelefon.jpg" />
+    <Content Include="Content\web\images\ser-pic2.jpg" />
+    <Content Include="Content\web\images\ser-pic4.jpg" />
+    <Content Include="Content\web\images\ser-pic5.jpg" />
+    <Content Include="Content\web\images\sonytelefon.jpg" />
+    <Content Include="Content\web\images\tablet1.jpg" />
+    <Content Include="Content\web\images\thumbnailslide-1.jpg" />
+    <Content Include="Content\web\images\thumbnailslide-2.jpg" />
+    <Content Include="Content\web\images\thumbnailslide-3.jpg" />
+    <Content Include="Content\web\images\tick1.png" />
+    <Content Include="Content\web\images\twiter.png" />
+    <Content Include="Content\web\images\value-rating.png" />
+    <Content Include="Content\web\index.html" />
+    <Content Include="Content\web\js\easing.js" />
+    <Content Include="Content\web\js\easyResponsiveTabs.js" />
+    <Content Include="Content\web\js\jquery-1.7.2.min.js" />
+    <Content Include="Content\web\js\jquery-slider.js" />
+    <Content Include="Content\web\js\jquery.min.js" />
+    <Content Include="Content\web\js\move-top.js" />
+    <Content Include="Content\web\js\script.js" />
+    <Content Include="Content\web\js\slides.min.jquery.js" />
+    <Content Include="Content\web\login.html" />
+    <Content Include="Content\web\register.html" />
+    <Content Include="Content\web\store.html" />
+    <Content Include="UrunDetay.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Anasayfa.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="eTicaret.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>eTicaret.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="eTicaret.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>eTicaret.tt</DependentUpon>
+    </Compile>
+    <Compile Include="eTicaret.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>eTicaret.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Kategori.cs">
+      <DependentUpon>eTicaret.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KategoriKamera.aspx.cs">
+      <DependentUpon>KategoriKamera.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KategoriKamera.aspx.designer.cs">
+      <DependentUpon>KategoriKamera.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KategoriLaptop.aspx.cs">
+      <DependentUpon>KategoriLaptop.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KategoriLaptop.aspx.designer.cs">
+      <DependentUpon>KategoriLaptop.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KategoriPlazma.aspx.cs">
+      <DependentUpon>KategoriPlazma.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KategoriPlazma.aspx.designer.cs">
+      <DependentUpon>KategoriPlazma.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KategoriTablet.aspx.cs">
+      <DependentUpon>KategoriTablet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KategoriTablet.aspx.designer.cs">
+      <DependentUpon>KategoriTablet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KategoriTelefon.aspx.cs">
+      <DependentUpon>KategoriTelefon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KategoriTelefon.aspx.designer.cs">
+      <DependentUpon>KategoriTelefon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Marka.cs">
+      <DependentUpon>eTicaret.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MarkaApple.aspx.cs">
+      <DependentUpon>MarkaApple.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MarkaApple.aspx.designer.cs">
+      <DependentUpon>MarkaApple.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MarkaAsus.aspx.cs">
+      <DependentUpon>MarkaAsus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MarkaAsus.aspx.designer.cs">
+      <DependentUpon>MarkaAsus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MarkaCanon.aspx.cs">
+      <DependentUpon>MarkaCanon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MarkaCanon.aspx.designer.cs">
+      <DependentUpon>MarkaCanon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MarkaCasper.aspx.cs">
+      <DependentUpon>MarkaCasper.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MarkaCasper.aspx.designer.cs">
+      <DependentUpon>MarkaCasper.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MarkaLenovo.aspx.cs">
+      <DependentUpon>MarkaLenovo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MarkaLenovo.aspx.designer.cs">
+      <DependentUpon>MarkaLenovo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MarkaPhilips.aspx.cs">
+      <DependentUpon>MarkaPhilips.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MarkaPhilips.aspx.designer.cs">
+      <DependentUpon>MarkaPhilips.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MarkaSamsung.aspx.cs">
+      <DependentUpon>MarkaSamsung.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MarkaSamsung.aspx.designer.cs">
+      <DependentUpon>MarkaSamsung.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MarkaSony.aspx.cs">
+      <DependentUpon>MarkaSony.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MarkaSony.aspx.designer.cs">
+      <DependentUpon>MarkaSony.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Anasayfa.aspx.cs">
+      <DependentUpon>Anasayfa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Anasayfa.aspx.designer.cs">
+      <DependentUpon>Anasayfa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sp_helpdiagramdefinition_Result.cs">
+      <DependentUpon>eTicaret.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_helpdiagrams_Result.cs">
+      <DependentUpon>eTicaret.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sysdiagrams.cs">
+      <DependentUpon>eTicaret.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UrunDetay.aspx.cs">
+      <DependentUpon>UrunDetay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UrunDetay.aspx.designer.cs">
+      <DependentUpon>UrunDetay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ÖdemeBilgi.aspx.cs">
+      <DependentUpon>ÖdemeBilgi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ÖdemeBilgi.aspx.designer.cs">
+      <DependentUpon>ÖdemeBilgi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ürün.cs">
+      <DependentUpon>eTicaret.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>19534</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:19457/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Musteriler>
+  <Musteri KartNo="424245456968">
+    <İsmi>Emre Soluğan</İsmi>
+    <Sonay>12</Sonay>
+    <Sonyıl>2018</Sonyıl>
+    <Güvenlik>598</Güvenlik>
+    <Telefon>05264889956</Telefon>
+    <Hesap>50000</Hesap>
+  </Musteri>  
+
+<Musteri KartNo="869574236548">
+    <İsmi>Yasin Dikilitaş</İsmi>
+    <Sonay>4</Sonay>
+    <Sonyıl>2018</Sonyıl>
+    <Güvenlik>788</Güvenlik>
+    <Telefon>05963214568</Telefon> 
+    <Hesap>2500</Hesap>
+  </Musteri>  
+
+<Musteri KartNo="987854612354">
+    <İsmi>Eren Ayas</İsmi>
+    <Sonay>2</Sonay>
+    <Sonyıl>2021</Sonyıl>
+    <Güvenlik>321</Güvenlik>
+    <Telefon>05875642358</Telefon> 
+    <Hesap>5000</Hesap>
+  </Musteri>  
+
+<Musteri KartNo="789465312456">
+    <İsmi>Ergün Kezer</İsmi>
+    <Sonay>1</Sonay>
+    <Sonyıl>2015</Sonyıl>
+    <Güvenlik>633</Güvenlik>
+    <Telefon>05053214578</Telefon> 
+    <Hesap>0</Hesap>
+  </Musteri>  
+
+<Musteri KartNo="896532145789">
+    <İsmi>Merve Bilgin</İsmi>
+    <Sonay>9</Sonay>
+    <Sonyıl>2016</Sonyıl>
+    <Güvenlik>159</Güvenlik>
+    <Telefon>05326598574</Telefon> 
+    <Hesap>6000</Hesap>
+  </Musteri>  
+
+<Musteri KartNo="321456895762">
+    <İsmi>Yağmur Ata</İsmi>
+    <Sonay>5</Sonay>
+    <Sonyıl>2017</Sonyıl>
+    <Güvenlik>456</Güvenlik>
+    <Telefon>05498576122</Telefon> 
+    <Hesap>1250</Hesap>
+  </Musteri>  
+
+<Musteri KartNo="658972362145">
+    <İsmi>Ali Doğru</İsmi>
+    <Sonay>6</Sonay>
+    <Sonyıl>2019</Sonyıl>
+    <Güvenlik>752</Güvenlik>
+    <Telefon>05226523569</Telefon> 
+    <Hesap>3000</Hesap>
+  </Musteri>  
+
+<Musteri KartNo="785654987325">
+    <İsmi>Gamze Öz</İsmi>
+    <Sonay>11</Sonay>
+    <Sonyıl>2020</Sonyıl>
+    <Güvenlik>552</Güvenlik>
+    <Telefon>052647895236</Telefon> 
+    <Hesap>750</Hesap>
+  </Musteri>  
+
+<Musteri KartNo="789652314569">
+    <İsmi>Ayşe Atıl</İsmi>
+    <Sonay>10</Sonay>
+    <Sonyıl>2020</Sonyıl>
+    <Güvenlik>112</Güvenlik>
+    <Telefon>05879643251</Telefon> 
+    <Hesap>5550</Hesap>
+  </Musteri>  
+
+<Musteri KartNo="455678963214">
+    <İsmi>Fatma Çam</İsmi>
+    <Sonay>3</Sonay>
+    <Sonyıl>2015</Sonyıl>
+    <Güvenlik>663</Güvenlik>
+    <Telefon>05278965231</Telefon> 
+    <Hesap>4300</Hesap>
+  </Musteri>  
+
+<Musteri KartNo="7778999554653214">
+    <İsmi>Yusuf Hepileri</İsmi>
+    <Sonay>4</Sonay>
+    <Sonyıl>20121</Sonyıl>
+    <Güvenlik>335</Güvenlik>
+    <Telefon>054632586325</Telefon> 
+    <Hesap>300</Hesap>
+  </Musteri>  
+</Musteriler>

@@ -1,0 +1,11 @@
+c:\users\emre\documents\visual studio 2013\Projects\E-Ticaret\E-Ticaret\bin\E-Ticaret.dll.config
+c:\users\emre\documents\visual studio 2013\Projects\E-Ticaret\E-Ticaret\bin\E-Ticaret.dll
+c:\users\emre\documents\visual studio 2013\Projects\E-Ticaret\E-Ticaret\bin\E-Ticaret.pdb
+c:\users\emre\documents\visual studio 2013\Projects\E-Ticaret\E-Ticaret\obj\Debug\E-Ticaret.dll
+c:\users\emre\documents\visual studio 2013\Projects\E-Ticaret\E-Ticaret\obj\Debug\E-Ticaret.pdb
+C:\Users\emre\documents\visual studio 2013\Projects\E-Ticaret\E-Ticaret\bin\EntityFramework.dll
+C:\Users\emre\documents\visual studio 2013\Projects\E-Ticaret\E-Ticaret\bin\EntityFramework.SqlServer.dll
+C:\Users\emre\documents\visual studio 2013\Projects\E-Ticaret\E-Ticaret\bin\EntityFramework.xml
+C:\Users\emre\documents\visual studio 2013\Projects\E-Ticaret\E-Ticaret\bin\EntityFramework.SqlServer.xml
+C:\Users\emre\documents\visual studio 2013\Projects\E-Ticaret\E-Ticaret\bin\Banka.xml
+C:\Users\emre\documents\visual studio 2013\Projects\E-Ticaret\E-Ticaret\obj\Debug\E-Ticaret.csprojResolveAssemblyReference.cache

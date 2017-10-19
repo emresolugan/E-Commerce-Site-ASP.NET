@@ -5,21 +5,23 @@ You can see some pictures of it..
 
 # Homepage
  
-<a href="http://postimg.org/image/h9m6dz7w5/" target="_blank"><img src="https://s26.postimg.org/xxdogh2nt/Homepage_st.png" alt="Homepage_st"/></a>
-
-<a href="http://postimg.org/image/6675m4bzp/" target="_blank"><img src="https://s26.postimg.org/8arin7dmh/Homepage_orta.png" alt="Homepage_orta"/></a>
-  
+![homepage_ust](https://user-images.githubusercontent.com/12279132/31767334-52747354-b4d3-11e7-8521-03c380af2308.png)
+![homepage_orta](https://user-images.githubusercontent.com/12279132/31767333-525447dc-b4d3-11e7-9840-fb7b7b920803.png) 
   
   <br/>
 
 #   Product Detail page
 
-<a href="http://postimg.org/image/tj574ms39/" target="_blank"><img src="https://s26.postimg.org/5s5tmirw9/Homepage_alt.png" alt="Homepage_alt"/></a>
-
-<a href="http://postimg.org/image/h72ar548l/" target="_blank"><img src="https://s26.postimg.org/xutstmz09/r_n_detay_alt.png" alt="r_n_detay_alt"/></a>
+![urun_detay_ust](https://user-images.githubusercontent.com/12279132/31767336-52b208b8-b4d3-11e7-9802-f7dc680f9f6c.png)
+![urun_detay_alt](https://user-images.githubusercontent.com/12279132/31767335-52933ef6-b4d3-11e7-9ec2-f5113311fa24.png)
 
  <br/>
 
 #   Payment page
- 
-<a href="http://postimg.org/image/uchsx8y45/" target="_blank"><img src="https://s26.postimg.org/92u6mehtl/r_n_deme.png" alt="r_n_deme"/></a>
+
+![urun_odeme](https://user-images.githubusercontent.com/12279132/31767337-52d12e64-b4d3-11e7-9a1a-1c4d0286c527.png)
+
+
+
+
+
